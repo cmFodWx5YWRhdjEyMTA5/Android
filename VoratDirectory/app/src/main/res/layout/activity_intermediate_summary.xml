@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.technovadors.vinitjain.voratdirectory.Directory.people.activities.IntermediateSummary">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:id="@+id/home_layout"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/home_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/house" />
+
+            <ImageView
+                android:id="@+id/home_tick"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignBottom="@+id/home_icon"
+                android:layout_alignRight="@+id/home_icon"
+                android:layout_marginBottom="20dp"
+                android:padding="7dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/tick"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/home_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="@string/intermediate_screen_home_details"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:id="@+id/work_layout"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/work_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/office_block" />
+
+            <ImageView
+                android:id="@+id/office_tick"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignBottom="@+id/work_icon"
+                android:layout_alignRight="@+id/work_icon"
+                android:layout_marginBottom="20dp"
+                android:padding="7dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/tick"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/work_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="@string/intermediate_screen_business_details"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/family_layout"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/family_icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/big_family" />
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/family_icon"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:text="@string/intermediate_screen_family_details"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

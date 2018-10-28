@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Vorat Directory</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="service_1_title">Railway Services</string>
+    <string name="service_1_description">Introducing simple services supporting you with all services related to Indian Railways\n1.Check Trains, Schedules &amp; Routes\n2.P.N.R. Status\n3.Seat Availibility\n4.Ticket Booking Vendors</string>
+    <string name="service_2_title">Mobile Recharge</string>
+    <string name="service_2_description">Get your &amp; your family\'s mobile recharged from our own Jain platform.\nA Non Profittable Transaction, where the revenue will be donated directly to Old Age Homes.</string>
+    <string name="service_3_title">Jeeman Services</string>
+    <string name="service_3_description">Saanji Snacks, Dukan Opening, Cooperate Events, Family Functions!\nAll type of Catering Services provided with Delicious Jain Menu at best rates!</string>
+    <string name="service_4_title">Rajsthan Taxi Service</string>
+    <string name="service_4_description">Book Cabs Easily\n1. Mumbai to Rajasthan\n2. Ahemdbad to Rajasthan\n3. Falna se apne gaav\n4. Udaipur / Mawli se apne Gaav</string>
+    <string name="service_5_title">Dharamshala Services</string>
+    <string name="service_5_description">Find Information, Address, Contact Details, Make Advance Bookings for your family at Major Dharamshalas across India.</string>
+    <string name="inactive_gaav">Gaav is inactive!</string>
+
+    <string-array name="home_tabs_titles">
+        <item>Samachaar</item>
+        <item>Apne Gaav</item>
+        <item>Our Services</item>
+    </string-array>
+
+
+    <string name="gaav_about_us">About Us</string>
+    <string name="gaav_view_parivar">View Parivar</string>
+    <string name="gaav_register_your_family">Register Your Family</string>
+    <string name="gaav_mitra_mandal">Mitra Mandals</string>
+    <string name="gaav_contact_details">Contact Us</string>
+    <string name="gaav_familes_registered_counting">Famlies Registered &amp; Counting...</string>
+
+
+    <string name="search_family_friends">Search Family &amp; Friends..</string>
+
+
+    //Login Screen
+    <string name="member_id">Member Id</string>
+    <string name="password">Password</string>
+    <string name="login_header">Login</string>
+    <string name="continue_to_login">Continue to Login</string>
+    <string name="unable_to_login">Unable to Login</string>
+    <string name="not_a_member_yet">Not a member yet?</string>
+    <string name="register_now">Register your family now</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="enter_member_id">Please Enter Member ID</string>
+    <string name="enter_password">Please Enter Password</string>
+
+
+    //New Family Screen
+
+    <string name="new_family_header">Enter Family Details</string>
+    <string name="select_gaav">Select Gaav</string>
+    <string name="select_samaj">Select Samaj</string>
+    <string name="family_name">Family Name</string>
+    <string name="gaav_details_saved_enter_samaj_details">Gaav Details Stored Successfully, Select your Samaj Details</string>
+    <string name="samaj_details_saved_enter_family_details">Samaj Details Stored Successfully, Select your family Details</string>
+    <string name="family_name_saved_enter_home_address">Family Name is stored Successfully, Now let\'s move ahead with family\'s home &amp; business profile</string>
+    <string name="enter_family_name">Type your Family\'s Surname..</string>
+    <string name="family_name_empty">Please fill your family name to move ahead.</string>
+    <string name="enter_your_pincode">Type your pincode &amp; press next</string>
+    <string name="enter_your_home_address">Type your home address..\nBuilding Name, Road Name, Landmark</string>
+    <string name="pincode">Pincode</string>
+    <string name="home_address">Residential Address.</string>
+    <string name="mobile_number">Enter Contact Number</string>
+    <string name="home_number_placeholder">Type reachable number!</string>
+    <string name="email_placeholder">Type Business E-mail!</string>
+    <string name="state_city">District, State.</string>
+    <string name="area">Area.</string>
+    <string name="select_area">Select your area.</string>
+    <string name="type_area">Type your area.</string>
+    <string name="pincode_validation">Invalid pincode, Pincode should be of 6 digits.</string>
+    <string name="edit_gaav">Edit Gaav Details.</string>
+    <string name="save_home_details">Save Details &amp; Move Ahead</string>
+    <string name="city_selection_failed">Failed to fetch cities, kindly try again.</string>
+    <string name="business_address">Business Address.</string>
+    <string name="have_more_business">Have more firms.</string>
+    <string name="proceed_with_saving_firm_name">Save firm name &amp; proceed</string>
+    <string name="proceed_with_saving_firm">Save firm details\n&amp; proceed</string>
+    <string name="enter_firm_name">Enter firm name</string>
+    <string name="enter_about_firm">What is your business about ?</string>
+    <string name="enter_your_firm_address">Type your Company/Firm address..
+        Gala No, Floor, Building Name, Road Name, Landmark</string>
+    <string name="firm_details_saved">Firm Details Saved, Move Ahead</string>
+
+
+    <string name="intermediate_screen_home_details">Home Details</string>
+    <string name="intermediate_screen_business_details">Business Details</string>
+    <string name="intermediate_screen_family_details">Proceed with family members</string>
+
+    <string name="close_keyboard">Tap here to hide keyboard</string>
+    <string name="bottom_alert_header">Attention Please!</string>
+    <string name="wait">Kindly wait, processing..</string>
+    <string name="okay">Okay!</string>
+    <string name="next">Next</string>
+    <string name="none_of_these">None Of These</string>
+
+
+    <string name="new_member_name">Member Name</string>
+    <string name="select_education">Select Basic Education</string>
+    <string name="business_details">Business Details</string>
+
+
+    // Railway Screen
+    <string name="pnr">PNR Status</string>
+    <string name="enter_pnr">Enter PNR Number</string>
+
+
+    <string-array name="business_profiles">
+        <item>We have our own business.</item>
+        <item>I am a working professional.</item>
+    </string-array>
+
+    <string-array name="registration_process">
+        <item>Home Details.</item>
+        <item>Business Details.</item>
+        <item>Family Member Details.</item>
+    </string-array>
+
+
+    <string name="home_details_needed_header">Family\'s Home Details</string>
+    <string-array name="home_details_needed">
+        <item>Residential Address.</item>
+        <item>Phone Number.</item>
+        <item>Family Photo.</item>
+    </string-array>
+
+    <string name="firm_details_needed_header">Family\'s Business Profile</string>
+    <string-array name="firm_details_needed">
+        <item>Firm / Company Name.</item>
+        <item>Business Type.</item>
+        <item>Business Address &amp; Contact Details.</item>
+        <item>Can add multiple businesses.</item>
+        <item>if you\'re a working professional, Can skip business details &amp; add professional details later in your personal profile.</item>
+    </string-array>
+
+    <string name="family_details_needed_header">Family\'s Member Profile</string>
+    <string-array name="family_details_needed">
+        <item>Member Name,Gender, Age.</item>
+        <item>Relationship with head of the family.</item>
+        <item>Marital Status of member.</item>
+        <item>Professional Details / Educational Details</item>
+        <item>Profile Photo</item>
+    </string-array>
+
+</resources>
